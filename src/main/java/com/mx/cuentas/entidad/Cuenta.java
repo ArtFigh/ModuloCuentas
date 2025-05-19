@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Cuenta {
     @Id
-    private Long numeroCuenta;
+    private long numeroCuenta;
     private double saldo;
     private String adeudo;
     private String tipo;
